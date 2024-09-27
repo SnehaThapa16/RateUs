@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.login-box {
+    background-color: white;
+    padding: 65px;
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    position: relative;
+    width: 500px; /* Increased width */
+}
+
+.back-button {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    background: none;
+    border: none;
+    font-size: 28px; /* Increased size */
+    cursor: pointer;
+}
+/* @font-face {
+    font-family:myfont2;
+    src:url(Moonbright.ttf);
+} */
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 45px; /* Increased size */
+    font-family: Times New Roman;
+}
+
+
+.logo {
+    width: 170px; /* Increased size */
+    margin-bottom: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px; /* Increased spacing */
+}
+
+label {
+    text-align: left;
+    margin-bottom: -8px;
+    font-size: 16px; /* Increased size */
+}
+
+input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px; /* Increased size */
+}
+
+input:focus {
+    outline: none;
+    border-color: #aaa;
+}
+
+.login-btn {
+    padding: 12px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Increased size */
+}
+
+.login-btn:hover {
+    background-color: #005bb5;
+}
+
+.signup-text {
+    margin-top: 20px;
+    font-size: 16px; /* Increased size */
+}
+
+.signup-text a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.signup-text a:hover {
+    text-decoration: underline;
+}
